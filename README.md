@@ -31,7 +31,7 @@ https://github.com/user-attachments/assets/6ba25a75-99d1-4409-b375-8061c68d31bd
 
 ### Recursos desconhecidos
 - `record` em `public record Poi(String poi, double latitude, double longitude) {}` - classe imutável compacta que gera automaticamente construtor, getters, `equals`, `hashCode` e `toString`.  ¹
-- `private`/`public static` - modificadores que controlam visibilidade (`private`/`public`) e indicam que o membro pertence à classe, não à instância (`static`). ²
+- `static` - e indicam que o membro pertence à classe, não à instância. ²
 - `throws Exception`/`SQLException` - cláusula que declara as exceções checadas que um método pode propagar para quem o chamou. ³ 
 - `final` em `private static final List<String> ADVICES = List.of()` ⁴ - torna a variável uma constante: só pode ser atribuída uma única vez. ⁴
 
