@@ -1,4 +1,5 @@
 
+
 # Java+Javalin e recursos OOP
 ## Parte 1
 exemplo PoiService:
@@ -36,7 +37,7 @@ https://github.com/user-attachments/assets/6ba25a75-99d1-4409-b375-8061c68d31bd
 - `final` em `private static final List<String> ADVICES = List.of()` ⁴ - torna a variável uma constante: só pode ser atribuída uma única vez. ⁴
 
 ### Serviço gerado
-
+https://github.com/user-attachments/assets/e15a3f7d-c755-4865-996d-cf5909464623
 ### Recursos conhecidos
 - Override(Employee.java)
 - toString (Employee.java)
