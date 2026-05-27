@@ -30,20 +30,19 @@ https://github.com/user-attachments/assets/6ba25a75-99d1-4409-b375-8061c68d31bd
 - Overloading
 
 ### Recursos desconhecidos
-- `record` em public record Poi(String poi, double latitude, double longitude) {}
-- private/public static
-- throws Exception/SQLException
-- `final` em private static final List<String> ADVICES = List.of()
+- `record` em `public record Poi(String poi, double latitude, double longitude) {}` - classe imutável compacta que gera automaticamente construtor, getters, `equals`, `hashCode` e `toString`.  ¹
+- `private`/`public static` - modificadores que controlam visibilidade (`private`/`public`) e indicam que o membro pertence à classe, não à instância (`static`). ²
+- `throws Exception`/`SQLException` - cláusula que declara as exceções checadas que um método pode propagar para quem o chamou. ³ 
+- `final` em `private static final List<String> ADVICES = List.of()` ⁴ - torna a variável uma constante: só pode ser atribuída uma única vez. ⁴
 
 ### Serviço gerado
-https://github.com/user-attachments/assets/36940b8f-a538-4e82-8296-58564f4fc18f
 
 ### Recursos conhecidos
 - Override(Employee.java)
 - toString (Employee.java)
 ### Recursos desconhecidos
-- tipos parametrizados ⁵
-- final class ⁶
+- tipos parametrizados - classes/interfaces que recebem um tipo como argumento (ex.: `List<Employee>`), garantindo segurança de tipos em tempo de compilação. ⁵
+- `final class` - classe marcada como `final` não pode ser estendida (proíbe herança). ⁶
 
 ## Referências
 
